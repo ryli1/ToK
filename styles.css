@@ -5,17 +5,25 @@
 
 }
 
+.texts {
+  margin-top: 75px;
+  color:rgb(238, 200, 255);
+  margin-right: 50px;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .column {
   float: left;
   width: 20%;
-  height:1100px;
-  margin-top: -500px;
+  height:1000px;
+  margin-top: -600px;
 }
 
 .column2 {
   float: left;
   width: 20%;
-  height:1100px;
+  height:1000px;
   margin-top: -1000px;
   margin-left:80%;
 }
