@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>●////●</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body{
+        background-color: rgb(169, 206, 240);
+        }
+        h2 {color:rgb(94, 29, 80); margin-top: -100px; margin-bottom: 50px;}
+        .rival-img{margin-top: 100px; width: 200px; height: auto;}
+        .flower {margin-top:100px; height: 150px; width: auto;}
+    </style>
+    <link rel="icon" href="../images/heart.ico" type="image/x-icon"/> 
+</head>
+<body>
+    <h2 id="question">Do you like me? 👉👈</h2>
+    <br>
+    <button class="button" onclick="func()" type ="button" id="yesButton">Yes</button>
+    <a href="ap.html" class="confirm-like hidden" id="yesLink">Yes</a>
+    <a href="fail.html" class="fail-button">No</a>
+    <br>
+    <img class="rival-img hidden" src="../images/rival.jpg" id="leon" alt = "my rival">
+    <script>
+        function func(){
+            document.getElementById("question").textContent = "More than Leon?"; 
+            const yesButton = document.getElementById("yesButton");
+            const yesLink = document.getElementById("yesLink");
+            const leonImg = document.getElementById("leon");
+            const flower1Img = document.getElementById("flow1")
+            const flower2Img = document.getElementById("flow2")
+            // Hide the button
+            yesButton.classList.add("hidden");
+            yesLink.classList.remove("hidden");
+            leonImg.classList.remove("hidden");
+            flower1Img.classList.add("hidden");
+            flower2Img.classList.remove("hidden");
+        }
+    </script>
+    <br>
+    <img class="flower" src="../images/flowers/image-2.png" id="flow1">
+    <img class="flower hidden" src="../images/flowers/image-3.png" id="flow2">
+</body>
+</html>

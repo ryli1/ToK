@@ -1,0 +1,105 @@
+*{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;
+  box-sizing: border-box;
+
+}
+
+.column {
+  float: left;
+  width: 20%;
+  height:1000px;
+  margin-top: -500px;
+}
+
+.column2 {
+  float: left;
+  width: 20%;
+  height:1000px;
+  margin-top: -1000px;
+  margin-left:80%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+}
+
+a.start {
+  font-size: 24px;
+  padding: 20px 100px;
+  border: 3px solid rgb(216, 112, 173);
+  border-radius: 10px;
+  color: white;
+  background-color:rgb(255, 152, 209);
+  text-decoration: none;
+  transition-duration: 0.2s;
+  margin-right:50px;
+}
+
+a.start:hover {
+  background-color:rgb(216, 112, 173);
+  color: white;
+}
+
+a.fail-button {
+  font-size: 24px;
+  padding: 20px 100px;
+  border: 3px solid darkred;
+  border-radius: 5px;
+  color: white;
+  background-color:crimson;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+a.fail-button:hover {
+  background-color:darkred;
+  color: white;
+}
+
+a.confirm-like {
+  font-size: 24px;
+  padding: 20px 100px;
+  border: 3px solid rgb(216, 112, 173);
+  border-radius: 5px;
+  color: white;
+  background-color:rgb(255, 152, 209);
+  text-decoration: none;
+  transition-duration: 0.2s;
+  margin-right:50px;
+}
+
+a.confirm-like:hover {
+  background-color:rgb(216, 112, 173);
+  color: white;
+}
+
+.button {
+  font-size: 24px;
+  padding: 20px 100px;
+  border: 3px solid rgb(216, 112, 173);
+  border-radius: 5px;
+  color: white;
+  background-color:rgb(255, 152, 209);
+  text-decoration: none;
+  transition-duration: 0.2s;
+  margin-right:50px;
+  }
+
+.button:hover {
+  background-color:rgb(216, 112, 173);
+  color: white;
+  }
+
+body {
+  position: relative;
+  top: 250px;
+  text-align: center;  
+  background-color: mistyrose;
+}
+
+.hidden {
+    display: none;
+}
+
