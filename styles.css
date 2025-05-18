@@ -1,5 +1,5 @@
-*{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: auto;
   box-sizing: border-box;
 
@@ -7,25 +7,25 @@
 
 .texts {
   margin-top: 75px;
-  color:rgb(242, 214, 255);
+  color: rgb(242, 214, 255);
   margin-right: 50px;
   font-size: 20px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .column {
   float: left;
   width: 20%;
-  height:1000px;
+  height: 1000px;
   margin-top: -600px;
 }
 
 .column2 {
   float: left;
   width: 20%;
-  height:1000px;
+  height: 1000px;
   margin-top: -1000px;
-  margin-left:80%;
+  margin-left: 80%;
 }
 
 .row:after {
@@ -39,14 +39,14 @@ a.start {
   border: 3px solid rgb(216, 112, 173);
   border-radius: 10px;
   color: white;
-  background-color:rgb(255, 152, 209);
+  background-color: rgb(255, 152, 209);
   text-decoration: none;
   transition-duration: 0.2s;
-  margin-right:50px;
+  margin-right: 50px;
 }
 
 a.start:hover {
-  background-color:rgb(216, 112, 173);
+  background-color: rgb(216, 112, 173);
   color: white;
 }
 
@@ -56,13 +56,13 @@ a.fail-button {
   border: 3px solid darkred;
   border-radius: 5px;
   color: white;
-  background-color:crimson;
+  background-color: crimson;
   text-decoration: none;
   transition-duration: 0.2s;
 }
 
 a.fail-button:hover {
-  background-color:darkred;
+  background-color: darkred;
   color: white;
 }
 
@@ -72,14 +72,14 @@ a.confirm-like {
   border: 3px solid rgb(216, 112, 173);
   border-radius: 5px;
   color: white;
-  background-color:rgb(255, 152, 209);
+  background-color: rgb(255, 152, 209);
   text-decoration: none;
   transition-duration: 0.2s;
-  margin-right:50px;
+  margin-right: 50px;
 }
 
 a.confirm-like:hover {
-  background-color:rgb(216, 112, 173);
+  background-color: rgb(216, 112, 173);
   color: white;
 }
 
@@ -89,25 +89,41 @@ a.confirm-like:hover {
   border: 3px solid rgb(216, 112, 173);
   border-radius: 5px;
   color: white;
-  background-color:rgb(255, 152, 209);
+  background-color: rgb(255, 152, 209);
   text-decoration: none;
   transition-duration: 0.2s;
-  margin-right:50px;
-  }
+  margin-right: 50px;
+}
 
 .button:hover {
-  background-color:rgb(216, 112, 173);
+  background-color: rgb(216, 112, 173);
   color: white;
-  }
+}
 
 body {
   position: relative;
   top: 250px;
-  text-align: center;  
+  text-align: center;
   background-color: mistyrose;
 }
 
 .hidden {
-    display: none;
+  display: none;
+}
+
+.no-button {
+  font-size: 24px;
+  padding: 20px 100px;
+  border: 3px solid darkred;
+  border-radius: 5px;
+  color: white;
+  background-color: crimson;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.no-button:hover {
+  background-color: darkred;
+  color: white;
 }
 
