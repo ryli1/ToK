@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>●////●</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="icon" href="heart.ico" type="image/x-icon"/> 
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body {background-color:rgb(241, 131, 227)}
+        h2 {color:rgb(98, 24, 121); margin-top: -100px; margin-bottom: 100px;}
+        .flower {margin-top:100px; height: 150px; width: auto;}
+    </style>
+    <link rel="icon" href="../images/heart.ico" type="image/x-icon"/> 
 </head>
 <body>
-    <h3 id="mainText"> .</h3>
+    <h2 id="mainText"> .</h2>
     <!--run the html mainText before the JS-->
-    <script src = "../script.js"></script>
-    <button class="button" onclick="confirmDateButton()" type = "button">Yes!</button>
+    <script>
+        let date;
+        let dateTime;
+        const options = {month: 'long', day: 'numeric' };
+        date = new Date;
+        dateTime = date.toLocaleDateString(undefined, options);
+        document.getElementById("mainText").textContent = "Is " + dateTime + " an okay anniversary date?";
+        function badDate() {
+            document.getElementById("mainText").textContent = "Come back tomorrow :C"
+            const noButt = document.getElementById("noDate")
+            const yesButt = document.getElementById("yesDate")
+            // Hide the button
+            noButt.classList.add("hidden");
+            yesButt.classList.add("hidden")
+            document.getElementById("flower").src = "../images/flowers/image-1.png"
+        }
+    </script>
+    <a href="success.html" class="confirm-like" id="yesDate">Yes</a> 
+    <button class="no-button" onclick="badDate()" id="noDate">No</button>
+    <br>
+    <img class="flower" src="../images/flowers/image-5.png" id="flower">
+
 </body>
