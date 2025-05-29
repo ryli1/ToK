@@ -6,7 +6,7 @@
 }
 
 .texts {
-  margin-top: 75px;
+  margin-top: 2%;
   color: rgb(242, 214, 255);
   margin-right: 50px;
   font-size: 20px;
@@ -16,7 +16,7 @@
 .column {
   float: left;
   width: 20%;
-  height: 1000px;
+  height: 1100px;
   margin-top: -700px;
 }
 
@@ -24,7 +24,7 @@
   float: left;
   width: 20%;
   height: 1000px;
-  margin-top: -1100px;
+  margin-top: -1000px;
   margin-left: 80%;
 }
 
@@ -126,4 +126,3 @@ body {
   background-color: darkred;
   color: white;
 }
-
