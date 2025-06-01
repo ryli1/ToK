@@ -15,17 +15,17 @@
 
 .column {
   float: left;
-  width: 15%;
+  width: 10%;
   height: 1100px;
   margin-top: -700px;
 }
 
 .column2 {
   float: left;
-  width: 15%;
+  width: 10%;
   height: 1000px;
   margin-top: -1000px;
-  margin-left: 85%;
+  margin-left: 90%;
 }
 
 .row:after {
