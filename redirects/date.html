@@ -6,8 +6,12 @@
     <title>●////●</title>
     <link rel="stylesheet" href="../styles.css">
     <style>
-        body {background-color:rgb(241, 131, 227)}
-        h2 {color:rgb(98, 24, 121); margin-top: -100px; margin-bottom: 100px;}
+        body {background-image: url("../images/kaze2.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;}
+        h2 {color: #ffbdee; margin-top: -100px; margin-bottom: 100px;-webkit-text-stroke-width: .5px; -webkit-text-stroke-color: rgb(94, 29, 80);}
         .flower {margin-top:100px; height: 150px; width: auto;}
     </style>
     <link rel="icon" href="../images/heart.ico" type="image/x-icon"/> 
@@ -32,9 +36,7 @@
             document.getElementById("flower").src = "../images/flowers/image-1.png"
         }
     </script>
-    <a href="yippee.html" class="confirm-like" id="yesDate">Yes</a> 
+    <a href="success.html" class="confirm-like" id="yesDate">Yes</a> 
     <button class="no-button" onclick="badDate()" id="noDate">No</button>
     <br>
-    <img class="flower" src="../images/flowers/image-5.png" id="flower">
-
 </body>
